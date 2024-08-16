@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests">>
+  <test thread-count="5" name="FacebookTest">
+    <classes>
+      <class name="testNGXML.Facebook"/>
+     </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="AmazonTest">
+    <classes>
+     <class name="testNGXML.Amazon"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="AjioTest">
+    <classes>
+      <class name="testNGXML.Ajio"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
